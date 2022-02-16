@@ -1,22 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="/blt-w.png" className="App-logo" alt="logo" width={100} />
+        <h3>
+          Welcome to
+        </h3>
+        <h1>
+          [Black-League]
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is the Official Site of the Black-League.
+          We are a group of Developers, Tech Enthusiasts, Digital Artists , Gamers and Content Creators.
+          Who are dedicated to create some awesome stuff for the community. And we are here to help each other in various fields.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <span>
+          ⚠
+          This site is still under development.
+          ⚠
+        </span>
       </header>
     </div>
   );
