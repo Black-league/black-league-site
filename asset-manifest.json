@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/black-league-site/static/css/main.53ff7a83.css",
+    "main.js": "/black-league-site/static/js/main.ff6cb7cd.js",
+    "index.html": "/black-league-site/index.html",
+    "main.53ff7a83.css.map": "/black-league-site/static/css/main.53ff7a83.css.map",
+    "main.ff6cb7cd.js.map": "/black-league-site/static/js/main.ff6cb7cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53ff7a83.css",
+    "static/js/main.ff6cb7cd.js"
+  ]
+}
