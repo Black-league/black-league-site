@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family: 'Nasalization';
+  src: url(/public/assets/fonts/nasalization-rg.otf) format('opentype');
+}
+
+:root{
+  --background-blue: #000e2a;
+  --white-font-color: rgb(235, 235, 235);
+  --black-font-color: rgb(20, 20, 20);
+  
+  --main-font: 'Source Sans Pro', sans-serif;
+  --secondary-font: 'Nasalization', sans-serif;
+  --tertiary-font: 'Exo', sans-serif;
+}
 
 .App {
   display: flex;
@@ -7,7 +22,7 @@
   align-items: center;
 
   text-align: center;
-  color: white;
+  color: var(--white-font-color);
 }
 
 .App-header {
@@ -25,8 +40,10 @@
 }
 
 .App-header > h1 {
-  font-size: calc(10px + 10vmin);
-  font-weight: bold;
+  font-size: calc(10px + 8vmin);
+  font-family: var(--secondary-font);
+  font-weight: 100;
+  text-transform: lowercase;
   margin: 0;
 }
 
@@ -43,3 +60,37 @@
   border-radius: 10px;
 }
 
+.App-header > p {
+  font-size: calc(5px + 2vmin);
+  font-family: var(--tertiary-font);
+  font-weight: 300;  
+  margin: 20px;
+}
+
+/* media screen 600px */
+@media screen and (max-width: 600px) {
+  .App-header {
+    height: 50vh;
+    width: 90vw;
+  }
+
+  .App-header > h1 {
+    font-size: calc(10px + 8vmin);
+  }
+
+  .App-header > h3 {
+    font-size: calc(5px + 4vmin);
+  }
+
+  .App-header > span {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px;
+    
+    border-radius: 10px;
+  }
+
+  .App-header > img {
+    width: 60%;
+  }
+}
