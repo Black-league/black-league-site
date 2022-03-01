@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="/blt-w.png" className="App-logo" alt="logo" width={100} />
+        <img src="assets/images/blt-w.png" className="App-logo" alt="logo" width={100} />
         <h3>
           Welcome to
         </h3>
