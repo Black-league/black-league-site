@@ -68,6 +68,48 @@
   margin: 20px;
 }
 
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;  
+}
+
+.btn {
+  font-size: calc(5px + 2vmin);
+  font-family: var(--secondary-font);
+  font-weight: 300;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+
+  transition: all 0.8s ease-in-out;
+}
+
+.btn > a {
+  color: var(--background-blue);
+  text-decoration: none;
+}
+
+i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.discord {
+  color: var(--white-font-color);
+  background-color: #7289da;
+}
+
+.btn:hover {
+  width: 150px;
+}
+
+
 /* media screen 600px */
 @media screen and (max-width: 600px) {
   .App-header {
@@ -93,5 +135,17 @@
 
   .App-header > img {
     width: 60%;
+  }
+
+  .App-header > p {
+    font-size: calc(5px + 2vmin);
+    font-family: var(--tertiary-font);
+    font-weight: 300;  
+    margin: 10px;
+  }
+
+  .btn-container {
+    margin-top: 20px;  
+    flex-direction: column;
   }
 }

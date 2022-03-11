@@ -21,6 +21,20 @@ function App() {
           This site is still under development.
           ⚠
         </span>
+        <div className='btn-container'>
+          <button className='btn'>
+            <a href='https://github.com/Black-League' target='_blank' rel='noopener noreferrer'>
+              <i className="fab fa-github"></i>
+              GitHub
+            </a>
+          </button>
+          <button className='btn discord'>
+            <a href='https://discord.gg/yp9etySYjV' target='_blank' rel='noopener noreferrer'>
+              <i className="fab fa-discord"></i>
+              Discord
+            </a>
+          </button>
+        </div>
       </header>
     </div>
   );
