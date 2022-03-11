@@ -30,8 +30,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   font-size: calc(5px + 2vmin);
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
@@ -59,6 +59,8 @@
   padding: 10px;
   border: 3px solid white;
   border-radius: 10px;
+  
+  margin-bottom: 40px;
 }
 
 .App-header > p {
@@ -66,6 +68,7 @@
   font-family: var(--tertiary-font);
   font-weight: 300;  
   margin: 20px;
+
 }
 
 .btn-container {
@@ -75,6 +78,9 @@
   align-items: center;
 
   margin-top: 20px;  
+  padding-top: 20px;
+
+  transition: all 0.8s ease-in-out;
 }
 
 .btn {
@@ -85,9 +91,10 @@
   border: none;
   border-radius: 10px;
   margin: 10px;
-  cursor: pointer;
+  cursor: pointer;  
 
-  transition: all 0.8s ease-in-out;
+  background-color: var(--background-black);
+  color: var(--white-font-color);
 }
 
 .btn > a {
@@ -102,11 +109,18 @@ i {
 
 .discord {
   color: var(--white-font-color);
-  background-color: #7289da;
+  /* background-color: #7289da; */
 }
 
+
 .btn:hover {
-  width: 150px;
+  background-color: var(--white-font-color);
+  color: var(--background-blue);
+}
+
+.discord:hover {
+  color: var(--white-font-color);
+  background-color: #637fdc;
 }
 
 
