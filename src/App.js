@@ -25,13 +25,17 @@ function App() {
           <a href='https://github.com/Black-League' target='_blank' rel='noopener noreferrer'>
             <button className='btn'>
               <i className="fab fa-github"></i>
-              GitHub
+              <span>
+                GitHub
+              </span>
             </button>
           </a>
           <a href='https://discord.gg/yp9etySYjV' target='_blank' rel='noopener noreferrer'>
             <button className='btn discord'>
               <i className="fab fa-discord"></i>
-              Discord
+              <span>
+                Discord
+              </span>
             </button>
           </a>
         </div>

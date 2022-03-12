@@ -123,6 +123,81 @@ i {
   background-color: #637fdc;
 }
 
+/* media screen 960px */
+@media screen and (max-width: 960px) {
+  .App-header {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .App-header > h1 {
+    font-size: calc(10px + 8vmin);
+    font-family: var(--secondary-font);
+    font-weight: 100;
+    text-transform: lowercase;
+    margin: 0;
+  }
+
+  .App-header > h3 {
+    font-size: calc(5px + 4vmin);
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .App-header > span {
+    font-size: 30px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    
+    margin-bottom: 40px;
+  }
+
+  .App-header > p {
+    font-size: calc(5px + 2vmin);
+    font-family: var(--tertiary-font);
+    font-weight: 300;  
+    margin: 20px;
+  }
+
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;  
+    padding-top: 20px;
+
+    transition: all 0.8s ease-in-out;
+  }
+
+  .btn {
+    font-size: calc(5px + 2vmin);
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;  
+
+    background-color: var(--background-black);
+    color: var(--white-font-color);
+  }
+
+  .btn > a {
+    color: var(--background-blue);
+    text-decoration: none;
+  }
+
+  i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+}
+
 
 /* media screen 600px */
 @media screen and (max-width: 600px) {
